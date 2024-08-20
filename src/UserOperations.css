@@ -1,0 +1,55 @@
+/* Background styling for AdminOperations */
+.bg-home-login {
+    background-image: url('./assets/tt.jpg'); /* Path to your background image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Container styling */
+.container {
+    text-align: center;
+    color: white; /* Ensure text is readable */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    justify-content: center; /* Center content vertically */
+    height: 100%; /* Full height of the parent */
+    width: 100%; /* Full width of the parent */
+}
+
+/* Button container styling */
+.button-container {
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+    gap: 20px; /* Space between buttons */
+}
+
+/* Button styling */
+button {
+    font-size: 1rem;
+    padding: 15px 30px; /* Adjust padding for better button size */
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Smooth transition for all effects */
+    width: 200px; /* Fixed width for consistency */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #0056b3; /* Darker shade for hover effect */
+    transform: scale(1.05); /* Slightly enlarge the button on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Add deeper shadow for hover */
+}
+
+/* Remove default focus outline */
+button:focus {
+    outline: none;
+}

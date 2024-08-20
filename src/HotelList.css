@@ -1,0 +1,40 @@
+/* src/components/HotelsList.css */
+
+.hotels-list {
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+.hotels-list h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.table th {
+    background-color: #f4f4f4;
+}
+
+.loading, .error {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #333;
+    margin-top: 20px;
+}
+
+.error {
+    color: red;
+}

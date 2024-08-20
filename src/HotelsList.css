@@ -1,0 +1,36 @@
+.hotels-list {
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+.loading, .error {
+    font-size: 1.2rem;
+    color: #dc3545; /* Red color for error */
+    text-align: center;
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #007bff; /* Blue color for headers */
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light grey for alternate rows */
+}
+
+tr:hover {
+    background-color: #e9ecef; /* Light grey on hover */
+}

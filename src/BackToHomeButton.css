@@ -1,0 +1,16 @@
+.go-home-button {
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 10px; /* Adjust spacing as needed */
+}
+
+.go-home-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}

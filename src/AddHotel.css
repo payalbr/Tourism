@@ -1,0 +1,82 @@
+/* Background styling for AddHotel */
+.bg-home-login {
+    background-image: url('./assets/tt.jpg'); /* Path to your background image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Container styling */
+.container {
+    text-align: center;
+    color: white; /* Ensure text is readable */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    justify-content: center; /* Center content vertically */
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for contrast */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add shadow for depth */
+    width: 80%; /* Adjust as needed */
+    max-width: 600px; /* Max width for better readability */
+}
+
+/* Input field styling */
+input {
+    font-size: 1rem;
+    padding: 10px;
+    margin: 10px 0; /* Vertical margin for spacing between fields */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%; /* Full width of the container */
+    box-sizing: border-box; /* Ensures padding and border are included in width */
+}
+
+/* Button styling */
+button {
+    font-size: 1rem;
+    padding: 10px 20px;
+    margin-top: 20px; /* Margin to separate from input fields */
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Smooth transition for all effects */
+    width: 100%; /* Full width of the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #0056b3; /* Darker shade for hover effect */
+    transform: scale(1.05); /* Slightly enlarge the button on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Add deeper shadow for hover */
+}
+
+/* Remove default focus outline */
+button:focus {
+    outline: none;
+}
+/* Message styling */
+.message {
+    font-size: 1rem;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.success {
+    font-size:xx-large;
+    color: white;
+}
+
+.error {
+    color: DarkRed;
+}
+
+

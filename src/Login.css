@@ -1,0 +1,70 @@
+/* Background styling for login page */
+.bg-login {
+    background-image: url('./assets/tourism.jpg'); /* Correct path */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Container for login content */
+.container {
+    text-align: center;
+    color: white; /* Ensure text is readable */
+    padding: 20px; /* Add padding for better spacing */
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: semi-transparent background to enhance text readability */
+    border-radius: 8px; /* Optional: rounded corners */
+}
+
+/* Input fields styling */
+input {
+    font-size: 1rem;
+    padding: 12px; /* Slightly larger padding for better touch targets */
+    margin: 12px 0; /* Increased vertical margin for better spacing */
+    border: 1px solid #ddd; /* Slightly lighter border color */
+    border-radius: 8px; /* Rounded corners for a softer look */
+    width: 100%; /* Full-width for responsiveness */
+    max-width: 300px; /* Maximum width to prevent stretching on larger screens */
+    display: block; /* Ensures inputs are block elements */
+    box-sizing: border-box; /* Ensures padding and border are included in width */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition effects */
+}
+
+/* Input focus state */
+input:focus {
+    border-color: #007bff; /* Primary color on focus */
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.25); /* Subtle shadow effect */
+}
+
+button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    display: block;
+    box-sizing: border-box;
+    background-color: #1a1a1a;
+    max-width: 200px; 
+    text-align: center; 
+    cursor: pointer;
+    transition: border-color 0.25s;
+  }
+  button:hover {
+    border-color: #646cff;
+  }
+  button:focus,
+  button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+  }
+  
+
+/* Paragraph styling */
+p {
+    font-size: x-large;
+    margin-top: 20px;
+}
